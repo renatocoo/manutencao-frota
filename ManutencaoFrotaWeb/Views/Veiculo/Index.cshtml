@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Gerenciamento de Veículos";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>@ViewData["Title"]</h1>
+
+        <!-- Formulário de Filtros -->
+        <form id="filtrosForm" class="mb-3">
+            <div class="form-row align-items-end">
+                <div class="form-group col-md-4">
+                    <label for="placa">Placa do Veículo</label>
+                    <input type="text" class="form-control" id="placa" placeholder="Digite a placa do veículo">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="proprietario">Nome do Proprietário</label>
+                    <input type="text" class="form-control" id="proprietario" placeholder="Digite o nome do proprietário">
+                </div>
+                <div class="form-group col-md-4">
+                    <button type="submit" id="buscarVeiculosButton" class="btn btn-primary">Pesquisar</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Botão para editar veículos selecionados -->
+        <div class="mb-3">
+            <button id="editarSelecionadosButton" class="btn btn-warning">Editar</button>
+        </div>
+
+        <!-- Tabela para exibir os veículos -->
+        <table id="veiculosTabela" class="table table-striped">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="selectAll"></th> <!-- Checkbox para selecionar todos -->
+                    <th>Placa</th>
+                    <th>Proprietário</th>
+                    <th>Documento</th>
+                    <th>Quilometragem</th>
+                    <th>Última Manutenção</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os veículos serão inseridos aqui pelo JavaScript -->
+            </tbody>
+        </table>
+
+        <!-- Mensagem de erro -->
+        <div id="erroCarregarVeiculos" class="alert alert-danger" style="display:none;">
+            Erro ao carregar os veículos.
+        </div>
+    </div>
+
+    <!-- Modal para editar veículo -->
+    <div class="modal fade" id="editarVeiculoModal" tabindex="-1" role="dialog" aria-labelledby="editarVeiculoModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editarVeiculoModalLabel">Editar Veículo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="editarVeiculoForm">
+                        <input type="hidden" id="veiculoId" />
+                        <div class="form-group">
+                            <label for="editarPlaca">Placa</label>
+                            <input type="text" class="form-control" id="editarPlaca" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="editarProprietario">Proprietário</label>
+                            <select class="form-control" id="editarProprietario" required>
+                                <!-- Os proprietários serão carregados aqui pelo JavaScript -->
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="~/js/veiculos.js"></script>
+</body>
+</html>

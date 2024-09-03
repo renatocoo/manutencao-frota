@@ -1,0 +1,133 @@
+﻿@{
+    ViewData["Title"] = "Ordens de Manutenção";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>@ViewData["Title"]</h1>
+
+        <!-- Formulário de Filtros -->
+        <form id="filtrosForm" class="mb-3">
+            <div class="form-row align-items-end">
+                <div class="form-group col-md-3">
+                    <label for="placa">Placa do Veículo</label>
+                    <input type="text" class="form-control" id="placa" placeholder="Digite a placa do veículo">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="responsavelOrdem">Responsável pela Ordem</label>
+                    <input type="text" class="form-control" id="responsavelOrdem" placeholder="Digite o responsável pela ordem">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="proprietario">Proprietário Atual</label>
+                    <input type="text" class="form-control" id="proprietario" placeholder="Digite o nome do proprietário">
+                </div>
+                <div class="form-group col-md-2">
+                    <button type="submit" id="carregarOrdensButton" class="btn btn-primary btn-block">Pesquisar</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Botões de Ação -->
+        <div class="mb-3">
+            <button id="cancelarOrdensButton" class="btn btn-danger">Cancelar</button>
+            <button id="encerrarOrdensButton" class="btn btn-success">Encerrar</button>
+            <button id="editarOrdensButton" class="btn btn-warning">Editar</button>
+            <button id="incluirOrdemButton" class="btn btn-secondary" data-toggle="modal" data-target="#incluirOrdemModal">Incluir</button>
+            <button id="exportarXlsxButton" class="btn btn-info">Exportar para Excel</button>
+        </div>
+
+        <!-- Tabela para exibir as ordens -->
+        <table id="ordensTabela" class="table table-striped">
+            <thead>
+                <tr>
+                    <th></th> <!-- Coluna para a checkbox -->
+                    <th>Veículo</th>
+                    <th>Responsável</th>
+                    <th>Proprietário</th>
+                    <th>Status</th>
+                    <th>Inclusão</th>
+                    <th>Finalização</th>
+                    <th>Quilometragem</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As ordens serão inseridas aqui pelo JavaScript -->
+            </tbody>
+        </table>
+
+        <!-- Mensagem de erro -->
+        <div id="erroCarregarOrdens" class="alert alert-danger" style="display:none;">
+            Erro ao carregar as ordens de manutenção.
+        </div>
+    </div>
+
+    <!-- Modal para incluir ordens de manutenção -->
+    <div class="modal fade" id="incluirOrdemModal" tabindex="-1" role="dialog" aria-labelledby="incluirOrdemModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="incluirOrdemModalLabel">Incluir Ordem de Manutenção</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="incluirOrdemForm">
+                        <div class="form-group">
+                            <label for="placaVeiculo">Placa do Veículo</label>
+                            <!-- Dropdown para selecionar veículos existentes -->
+                            <select class="form-control" id="placaVeiculo" required>
+                                <option value="">Selecione um veículo</option>
+                                <!-- As opções serão carregadas dinamicamente -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="quilometragemManutencao">Quilometragem</label>
+                            <input type="number" class="form-control" id="quilometragemManutencao" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Incluir Ordem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para editar ordens de manutenção -->
+    <div class="modal fade" id="editarOrdemModal" tabindex="-1" role="dialog" aria-labelledby="editarOrdemModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editarOrdemModalLabel">Editar Ordens de Manutenção</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="editarOrdemForm">
+                        <div id="placasSelecionadas"></div>
+                        <div class="form-group">
+                            <label for="quilometragemManutencaoEditar">Nova Quilometragem</label>
+                            <input type="number" class="form-control" id="quilometragemManutencaoEditar" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="~/js/ordensManutencao.js"></script>
+</body>
+</html>

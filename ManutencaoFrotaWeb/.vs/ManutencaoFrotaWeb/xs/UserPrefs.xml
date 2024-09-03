@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{5CE461CE-B61C-4902-8AD3-852AF1078435}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/js/ordensManutencao.js">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Controllers/OrdemManutencaoController.cs" />
+      <File FileName="Controllers/ProprietarioController.cs" />
+      <File FileName="Controllers/VeiculoController.cs" />
+      <File FileName="Controllers/AutenticacaoController.cs" />
+      <File FileName="Views/OrdemManutencao/Index.cshtml" Line="123" Column="23" />
+      <File FileName="wwwroot/js/ordemManutencao.js" Line="222" Column="39" />
+      <File FileName="wwwroot/js/autenticacao.js" Line="30" Column="23" />
+      <File FileName="Program.cs" />
+      <File FileName="wwwroot/js/proprietario.js" />
+      <File FileName="wwwroot/js/site.js" />
+      <File FileName="Views/Autenticacao/Login.cshtml" />
+      <File FileName="Views/Veiculo/Index.cshtml" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Views/Home/Privacy.cshtml" />
+      <File FileName="Models/LoginViewModel.cs" />
+      <File FileName="Models/ErrorViewModel.cs" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Views/Proprietario/Index.cshtml" />
+      <File FileName="appsettings.json" />
+      <File FileName="Views/Shared/_LoginLayout.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ManutencaoFrotaWeb" expanded="True">
+            <Node name="ManutencaoFrotaWeb" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Autenticacao" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="OrdemManutencao" expanded="True" />
+                <Node name="Proprietario" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Veiculo" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True">
+                  <Node name="ordensManutencao.js" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ManutencaoFrotaWeb PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>

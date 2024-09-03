@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Proprietário";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>@ViewData["Title"]</h1>
+
+        <!-- Tabela para exibir os proprietários -->
+        <table id="proprietariosTabela" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Documento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os proprietários serão inseridos aqui pelo JavaScript -->
+            </tbody>
+        </table>
+
+        <!-- Mensagem de erro -->
+        <div id="errorMessage" class="alert alert-danger" style="display:none;">
+            Erro ao carregar os proprietários.
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="~/js/proprietario.js"></script>
+</body>
+</html>

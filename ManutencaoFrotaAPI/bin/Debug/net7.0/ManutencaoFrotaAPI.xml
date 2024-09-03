@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ManutencaoFrotaAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ManutencaoFrotaAPI.Controllers.AutenticacaoController.Login(ManutencaoFrotaAPI.DTOs.Requests.RequisicaoAutenticacao)">
+            <summary>
+            Realiza o login e gera um token JWT.
+            </summary>
+            <param name="loginModel">Requisicão contendo o nome de usuário e senha</param>
+            <returns>Token JWT</returns>
+        </member>
+        <member name="M:ManutencaoFrotaAPI.Controllers.AutenticacaoController.GerarTokenJwt(System.String)">
+            <summary>
+            Gera um token JWT para um usuário.
+            </summary>
+            <param name="username">Nome do usuário</param>
+            <returns>Token JWT</returns>
+        </member>
+        <member name="M:ManutencaoFrotaAPI.Controllers.OrdemManutencaoController.ListarManutencoes(System.String,System.String,System.String)">
+            <summary>
+            Lista todas as ordens de manutenção com filtros opcionais.
+            </summary>
+            <param name="placa">Placa do veículo</param>
+            <param name="responsavelOrdem">Responsável pela ordem</param>
+            <param name="proprietario">Proprietário atual do veículo</param>
+            <returns>Lista de ordens de manutenção</returns>
+        </member>
+        <member name="M:ManutencaoFrotaAPI.Controllers.OrdemManutencaoController.IncluirOrdem(ManutencaoFrotaAPI.DTOs.Requests.RequisicaoIncluirOrdem)">
+            <summary>
+            Adiciona uma nova ordem de manutenção.
+            </summary>
+            <param name="request">Requisição contendo a placa e a quilometragem do veículo no ato da manutenção</param>
+            <returns>Mensagem de sucesso se a ordem for criada com sucesso</returns>
+        </member>
+        <member name="M:ManutencaoFrotaAPI.Controllers.OrdemManutencaoController.AtualizarOrdem(System.String,ManutencaoFrotaAPI.DTOs.Requests.RequisicaoAtualizarOrdem)">
+            <summary>
+            Atualiza uma ordem de manutenção em aberto.
+            </summary>
+            <param name="placa">Placa do veículo</param>
+            <param name="request">Dados para atualização</param>
+            <returns>Resultado da operação</returns>
+        </member>
+        <member name="M:ManutencaoFrotaAPI.Controllers.OrdemManutencaoController.EncerrarOrdem(ManutencaoFrotaAPI.DTOs.Requests.RequisicaoOrdem)">
+            <summary>
+            Encerra uma ordem de manutenção em aberto.
+            </summary>
+            <param name="request">Requisição contendo a placa do veículo</param>
+            <returns>Mensagem de sucesso se a ordem for encerrada com sucesso</returns>
+        </member>
+        <member name="M:ManutencaoFrotaAPI.Controllers.OrdemManutencaoController.CancelarOrdem(ManutencaoFrotaAPI.DTOs.Requests.RequisicaoOrdem)">
+            <summary>
+            Cancela uma ordem de manutenção em aberto.
+            </summary>
+            <param name="request">Requisição contendo a placa do veículo</param>
+            <returns>Mensagem de sucesso se a ordem for cancelada com sucesso</returns>
+        </member>
+        <member name="M:ManutencaoFrotaAPI.Controllers.OrdemManutencaoController.ExportarParaExcel(System.String,System.String,System.String)">
+            <summary>
+            Exporta ordens de manutenção para um arquivo Excel com filtros opcionais.
+            </summary>
+            <param name="placa">Placa do veículo</param>
+            <param name="responsavelOrdem">Responsável pela ordem</param>
+            <param name="proprietario">Proprietário atual do veículo</param>
+            <returns>Base64 do arquivo Excel exportado</returns>
+        </member>
+        <member name="M:ManutencaoFrotaAPI.Controllers.ProprietarioController.ListarProprietarios">
+            <summary>
+            Lista todos os proprietários cadastrados.
+            </summary>
+            <returns>Lista de proprietários</returns>
+        </member>
+        <member name="M:ManutencaoFrotaAPI.Controllers.VeiculoController.GetVeiculos(System.String,System.String)">
+            <summary>
+            Lista todos os veículos cadastrados com filtros opcionais.
+            </summary>
+            <param name="placa">Placa do veículo</param>
+            <param name="proprietario">Nome do proprietário</param>
+            <returns>Lista de veículos</returns>
+        </member>
+        <member name="M:ManutencaoFrotaAPI.Controllers.VeiculoController.PatchVeiculoProprietario(System.String,ManutencaoFrotaAPI.DTOs.Requests.RequisicaoAtualizarProprietario)">
+            <summary>
+            Atualiza o proprietário de um veículo.
+            </summary>
+            <param name="placa">Placa do veículo a ser atualizado</param>
+            <param name="request">Dados para atualização</param>
+            <returns>Resultado da operação</returns>
+        </member>
+        <member name="P:ManutencaoFrotaAPI.DTOs.Requests.RequisicaoAtualizarOrdem.KmManutencao">
+            <summary>
+            Quilometragem do veículo no momento da manutenção
+            </summary>
+        </member>
+        <member name="P:ManutencaoFrotaAPI.DTOs.Requests.RequisicaoAtualizarProprietario.ProprietarioID">
+            <summary>
+            ID do proprietário
+            </summary>
+        </member>
+        <member name="P:ManutencaoFrotaAPI.DTOs.Requests.RequisicaoAutenticacao.Usuario">
+            <summary>
+            Nome do usuário
+            </summary>
+        </member>
+        <member name="P:ManutencaoFrotaAPI.DTOs.Requests.RequisicaoAutenticacao.Senha">
+            <summary>
+            Senha do usuário
+            </summary>
+        </member>
+        <member name="P:ManutencaoFrotaAPI.DTOs.Requests.RequisicaoIncluirOrdem.PlacaVeiculo">
+            <summary>
+            Placa do veículo
+            </summary>
+        </member>
+        <member name="P:ManutencaoFrotaAPI.DTOs.Requests.RequisicaoIncluirOrdem.KmManutencao">
+            <summary>
+            Quilometragem do veículo no momento da manutenção
+            </summary>
+        </member>
+        <member name="P:ManutencaoFrotaAPI.DTOs.Requests.RequisicaoOrdem.PlacaVeiculo">
+            <summary>
+            Placa do veículo
+            </summary>
+        </member>
+        <member name="T:GerenciadorDados">
+            <summary>
+            Classe responsável pelo gerenciamento dos dados no contexto do aplicativo.
+            </summary>
+        </member>
+        <member name="M:GerenciadorDados.#ctor(AppDbContext,Microsoft.Extensions.Logging.ILogger{GerenciadorDados})">
+            <summary>
+            Inicializa uma nova instância da classe GerenciadorDados.
+            </summary>
+            <param name="contexto">O contexto do banco de dados.</param>
+            <param name="logger">O logger para registrar mensagens.</param>
+        </member>
+        <member name="M:GerenciadorDados.CarregarProprietarios">
+            <summary>
+            Carrega todos os proprietários do banco de dados.
+            </summary>
+            <returns>Uma lista de proprietários.</returns>
+        </member>
+        <member name="M:GerenciadorDados.SalvarProprietarios(System.Collections.Generic.List{Proprietario})">
+            <summary>
+            Salva uma lista de proprietários no banco de dados.
+            </summary>
+            <param name="proprietarios">A lista de proprietários a ser salva.</param>
+        </member>
+        <member name="M:GerenciadorDados.CarregarVeiculos">
+            <summary>
+            Carrega todos os veículos do banco de dados.
+            </summary>
+            <returns>Uma lista de veículos.</returns>
+        </member>
+        <member name="M:GerenciadorDados.SalvarVeiculos(System.Collections.Generic.List{Veiculo})">
+            <summary>
+            Salva uma lista de veículos no banco de dados.
+            </summary>
+            <param name="veiculos">A lista de veículos a ser salva.</param>
+        </member>
+        <member name="M:GerenciadorDados.CarregarOrdens">
+            <summary>
+            Carrega todas as ordens de manutenção do banco de dados.
+            </summary>
+            <returns>Uma lista de ordens de manutenção.</returns>
+        </member>
+        <member name="M:GerenciadorDados.SalvarOrdens(System.Collections.Generic.List{OrdemManutencao})">
+            <summary>
+            Salva uma lista de ordens de manutenção no banco de dados.
+            </summary>
+            <param name="ordens">A lista de ordens de manutenção a ser salva.</param>
+        </member>
+        <member name="M:GerenciadorDados.AdicionarOrdem(OrdemManutencao)">
+            <summary>
+            Adiciona uma nova ordem de manutenção no banco de dados.
+            </summary>
+            <param name="ordem">A ordem de manutenção a ser adicionada.</param>
+        </member>
+        <member name="M:GerenciadorDados.SalvarComTratamentoDeConcorrencia">
+            <summary>
+            Salva as alterações no banco de dados com tratamento de concorrência.
+            </summary>
+        </member>
+    </members>
+</doc>

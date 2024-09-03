@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{E0F5BC5C-779A-44E1-9C47-14BA618EDCC8}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ManutencaoFrotaAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/StatusManutencao.cs">
+    <Files>
+      <File FileName="appsettings.json" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Controllers/AutenticacaoController.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="manutencao_frota.db" />
+      <File FileName="Controllers/OrdemManutencaoController.cs" />
+      <File FileName="Controllers/ProprietarioController.cs" />
+      <File FileName="Controllers/VeiculoController.cs" />
+      <File FileName="Data/AppDbContext.cs" />
+      <File FileName="Data/GerenciadorDados.cs" />
+      <File FileName="Data/IGerenciadorDados.cs" />
+      <File FileName="DTOs/Requests/RequisicaoAtualizarOrdem.cs" />
+      <File FileName="DTOs/Requests/RequisicaoAtualizarProprietario.cs" />
+      <File FileName="DTOs/Requests/RequisicaoAutenticacao.cs" />
+      <File FileName="DTOs/Requests/RequisicaoIncluirOrdem.cs" />
+      <File FileName="DTOs/Requests/RequisicaoOrdem.cs" />
+      <File FileName="DTOs/Responses/RespostaOrdemManutencao.cs" />
+      <File FileName="DTOs/Responses/RespostaVeiculo.cs" />
+      <File FileName="Models/OrdemManutencao.cs" />
+      <File FileName="Models/Proprietario.cs" />
+      <File FileName="Models/StatusManutencao.cs" Line="7" Column="2" />
+      <File FileName="Models/Veiculo.cs" />
+      <File FileName="Validators/ValidadorRequisicaoAtualizarOrdem.cs" />
+      <File FileName="Validators/ValidadorRequisicaoAtualizarProprietario.cs" />
+      <File FileName="Validators/ValidadorRequisicaoIncluirOrdem.cs" />
+      <File FileName="Validators/ValidadorRequisicaoOrdem.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ManutencaoFrotaAPI" expanded="True">
+            <Node name="ManutencaoFrotaAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="DTOs" expanded="True">
+                <Node name="Requests" expanded="True" />
+                <Node name="Responses" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="StatusManutencao.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Validators" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
