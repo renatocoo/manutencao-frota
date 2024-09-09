@@ -33,3 +33,7 @@ footer {
     width: 100%;
     line-height: 60px; /* Centraliza o texto verticalmente */
 }
+
+.checkbox-disabled input[type="checkbox"] {
+    cursor: not-allowed; /* Mostra que não pode ser clicada */
+}

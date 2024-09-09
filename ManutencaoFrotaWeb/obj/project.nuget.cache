@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "khPvQKbjmClFQY3ohVmMr+oFEHa44x6F7E0z9oQiPlY90ulSNYsrkRdqJEI42+5TkWMm03blfyG6tkO0YtwnMA==",
+  "dgSpecHash": "yy/WJ3PreKkE7w3kEeLKMbzp12XUXsNf+w4l38c3vdspYxlwkWYZem7Aj2Y+YrVfMX2iyWyeDPuEZ7DMLN0iHA==",
   "success": true,
-  "projectFilePath": "/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/ManutencaoFrotaWeb.csproj",
+  "projectFilePath": "/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/ManutencaoFrotaWeb.csproj",
   "expectedPackageFiles": [
     "/Users/renatodacosta/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.20/microsoft.aspnetcore.authentication.jwtbearer.7.0.20.nupkg.sha512",
     "/Users/renatodacosta/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

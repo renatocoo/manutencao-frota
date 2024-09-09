@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2NJZDyy4Dre4IqT+IVm7QBfd9RuOiFyrtBZQ4GrihbNkPYkkQmJ5Qz7mCS4VMR5RPvXih+9F8pQrGTW79JAZmQ==",
+  "dgSpecHash": "QI6hVRlSTvOgkCBm2AQjTmAvSYEWSL7EsXoZYtedlctauy5Edejg9cIfhexElA4SObczqHuASCpCFGV93aMeVQ==",
   "success": true,
-  "projectFilePath": "/Users/renatodacosta/Workspace/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
+  "projectFilePath": "/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
   "expectedPackageFiles": [
     "/Users/renatodacosta/.nuget/packages/epplus/7.1.3/epplus.7.1.3.nupkg.sha512",
     "/Users/renatodacosta/.nuget/packages/epplus.interfaces/6.1.1/epplus.interfaces.6.1.1.nupkg.sha512",

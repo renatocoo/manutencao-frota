@@ -9,59 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ManutencaoFrotaWeb
 build_property.RootNamespace = ManutencaoFrotaWeb
-build_property.ProjectDir = /Users/renatodacosta/Workspace/ManutencaoFrotaWeb/
+build_property.ProjectDir = /Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/renatodacosta/Workspace/ManutencaoFrotaWeb
+build_property.MSBuildProjectDirectory = /Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/Autenticacao/Login.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/Autenticacao/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0ZW50aWNhY2FvL0xvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/Home/Index.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/Home/Privacy.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/OrdemManutencao/Index.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/OrdemManutencao/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZW1NYW51dGVuY2FvL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/Proprietario/Index.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/Proprietario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvcHJpZXRhcmlvL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/Shared/Error.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/Shared/_LoginLayout.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/Shared/_LoginLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/Veiculo/Index.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/Veiculo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsby9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/_ViewImports.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/_ViewStart.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/Views/Shared/_Layout.cshtml]
+[/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-92hs0z25rx

@@ -3214,11 +3214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/renatodacosta/Workspace/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
+      "projectUniqueName": "/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
       "projectName": "ManutencaoFrotaAPI",
-      "projectPath": "/Users/renatodacosta/Workspace/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
+      "projectPath": "/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
       "packagesPath": "/Users/renatodacosta/.nuget/packages/",
-      "outputPath": "/Users/renatodacosta/Workspace/ManutencaoFrotaAPI/obj/",
+      "outputPath": "/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/renatodacosta/.nuget/NuGet/NuGet.Config"

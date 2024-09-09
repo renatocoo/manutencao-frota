@@ -1,21 +1,17 @@
 ﻿<Properties StartupConfiguration="{5CE461CE-B61C-4902-8AD3-852AF1078435}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/js/ordensManutencao.js">
     <Files>
-      <File FileName="Controllers/HomeController.cs" />
-      <File FileName="Controllers/OrdemManutencaoController.cs" />
+      <File FileName="Controllers/HomeController.cs" Line="18" Column="33" />
+      <File FileName="Controllers/OrdemManutencaoController.cs" Line="9" Column="21" />
       <File FileName="Controllers/ProprietarioController.cs" />
       <File FileName="Controllers/VeiculoController.cs" />
-      <File FileName="Controllers/AutenticacaoController.cs" />
-      <File FileName="Views/OrdemManutencao/Index.cshtml" Line="123" Column="23" />
-      <File FileName="wwwroot/js/ordemManutencao.js" Line="222" Column="39" />
-      <File FileName="wwwroot/js/autenticacao.js" Line="30" Column="23" />
+      <File FileName="Controllers/AutenticacaoController.cs" Line="1" Column="1" />
+      <File FileName="Views/OrdemManutencao/Index.cshtml" Line="55" Column="42" />
+      <File FileName="wwwroot/js/autenticacao.js" Line="1" Column="1" />
       <File FileName="Program.cs" />
       <File FileName="wwwroot/js/proprietario.js" />
-      <File FileName="wwwroot/js/site.js" />
+      <File FileName="wwwroot/js/site.js" Line="22" Column="34" />
       <File FileName="Views/Autenticacao/Login.cshtml" />
       <File FileName="Views/Veiculo/Index.cshtml" />
       <File FileName="Views/Shared/_Layout.cshtml" />
@@ -27,25 +23,25 @@
       <File FileName="Views/Proprietario/Index.cshtml" />
       <File FileName="appsettings.json" />
       <File FileName="Views/Shared/_LoginLayout.cshtml" />
+      <File FileName="wwwroot/js/ordensManutencao.js" Line="27" Column="39" />
+      <File FileName="wwwroot/css/site.css" Line="41" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ManutencaoFrotaWeb" expanded="True">
-            <Node name="ManutencaoFrotaWeb" expanded="True">
+          <Node name="ManutencaoFrotaWeb">
+            <Node name="ManutencaoFrotaWeb">
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
+              <Node name="Views">
                 <Node name="Autenticacao" expanded="True" />
                 <Node name="Home" expanded="True" />
-                <Node name="OrdemManutencao" expanded="True" />
                 <Node name="Proprietario" expanded="True" />
                 <Node name="Shared" expanded="True" />
                 <Node name="Veiculo" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True">
+              <Node name="wwwroot">
+                <Node name="js">
                   <Node name="ordensManutencao.js" selected="True" />
                 </Node>
               </Node>
@@ -55,7 +51,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ManutencaoFrotaWeb PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

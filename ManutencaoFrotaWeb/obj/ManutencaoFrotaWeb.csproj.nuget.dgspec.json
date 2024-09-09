@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/ManutencaoFrotaWeb.csproj": {}
+    "/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/ManutencaoFrotaWeb.csproj": {}
   },
   "projects": {
-    "/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/ManutencaoFrotaWeb.csproj": {
+    "/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/ManutencaoFrotaWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/ManutencaoFrotaWeb.csproj",
+        "projectUniqueName": "/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/ManutencaoFrotaWeb.csproj",
         "projectName": "ManutencaoFrotaWeb",
-        "projectPath": "/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/ManutencaoFrotaWeb.csproj",
+        "projectPath": "/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/ManutencaoFrotaWeb.csproj",
         "packagesPath": "/Users/renatodacosta/.nuget/packages/",
-        "outputPath": "/Users/renatodacosta/Workspace/ManutencaoFrotaWeb/obj/",
+        "outputPath": "/Users/renatodacosta/Workspace/manutencao-frota/ManutencaoFrotaWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/renatodacosta/.nuget/NuGet/NuGet.Config"

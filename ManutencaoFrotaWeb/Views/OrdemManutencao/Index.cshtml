@@ -45,11 +45,11 @@
             <button id="exportarXlsxButton" class="btn btn-info">Exportar para Excel</button>
         </div>
 
-        <!-- Tabela para exibir as ordens -->
+        <!-- exibir as ordens -->
         <table id="ordensTabela" class="table table-striped">
             <thead>
                 <tr>
-                    <th></th> <!-- Coluna para a checkbox -->
+                    <th><input type="checkbox" id="selecionaTodas"></th> <!-- checkbox -->
                     <th>Veículo</th>
                     <th>Responsável</th>
                     <th>Proprietário</th>
@@ -60,17 +60,17 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- As ordens serão inseridas aqui pelo JavaScript -->
+                <!-- ordens inseridas aqui pelo JavaScript -->
             </tbody>
         </table>
 
-        <!-- Mensagem de erro -->
+        <!-- erro -->
         <div id="erroCarregarOrdens" class="alert alert-danger" style="display:none;">
             Erro ao carregar as ordens de manutenção.
         </div>
     </div>
 
-    <!-- Modal para incluir ordens de manutenção -->
+    <!-- Modal para incluir -->
     <div class="modal fade" id="incluirOrdemModal" tabindex="-1" role="dialog" aria-labelledby="incluirOrdemModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -84,7 +84,7 @@
                     <form id="incluirOrdemForm">
                         <div class="form-group">
                             <label for="placaVeiculo">Placa do Veículo</label>
-                            <!-- Dropdown para selecionar veículos existentes -->
+                            <!-- selecionar veículos existentes -->
                             <select class="form-control" id="placaVeiculo" required>
                                 <option value="">Selecione um veículo</option>
                                 <!-- As opções serão carregadas dinamicamente -->
@@ -101,7 +101,7 @@
         </div>
     </div>
 
-    <!-- Modal para editar ordens de manutenção -->
+    <!-- Modal para editar -->
     <div class="modal fade" id="editarOrdemModal" tabindex="-1" role="dialog" aria-labelledby="editarOrdemModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -128,6 +128,6 @@
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="~/js/ordensManutencao.js"></script>
+    <script src="~/js/ordemManutencao.js"></script>
 </body>
 </html>

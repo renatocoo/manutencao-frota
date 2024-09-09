@@ -1,11 +1,6 @@
 ﻿<Properties StartupConfiguration="{E0F5BC5C-779A-44E1-9C47-14BA618EDCC8}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.ManutencaoFrotaAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Models/StatusManutencao.cs">
     <Files>
       <File FileName="appsettings.json" />
@@ -38,23 +33,22 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ManutencaoFrotaAPI" expanded="True">
-            <Node name="ManutencaoFrotaAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="DTOs" expanded="True">
-                <Node name="Requests" expanded="True" />
-                <Node name="Responses" expanded="True" />
-              </Node>
-              <Node name="Models" expanded="True">
-                <Node name="StatusManutencao.cs" selected="True" />
-              </Node>
+          <Node name="ManutencaoFrotaAPI">
+            <Node name="ManutencaoFrotaAPI">
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Validators" expanded="True" />
+              <Node name="Validators" expanded="True">
+                <Node name="ValidadorRequisicaoAtualizarProprietario.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ManutencaoFrotaAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

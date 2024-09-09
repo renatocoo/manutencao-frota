@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManutencaoFrotaWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ec7c821af8b04a24b22792cabc78f1dd44a0fd2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManutencaoFrotaWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManutencaoFrotaWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
