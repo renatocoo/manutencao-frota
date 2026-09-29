@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj": {}
+    "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj": {}
   },
   "projects": {
-    "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj": {
+    "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
+        "projectUniqueName": "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
         "projectName": "ManutencaoFrotaAPI",
-        "projectPath": "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
+        "projectPath": "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
         "packagesPath": "/Users/renatodacosta/.nuget/packages/",
-        "outputPath": "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrota/ManutencaoFrotaAPI/obj/",
+        "outputPath": "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrotaAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/renatodacosta/.nuget/NuGet/NuGet.Config"

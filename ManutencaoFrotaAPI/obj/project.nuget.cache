@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WkgUFQmu+yU=",
+  "dgSpecHash": "9s2YYQqkNvU=",
   "success": true,
-  "projectFilePath": "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
+  "projectFilePath": "/Users/renatodacosta/Projects/manutencao-frota/ManutencaoFrotaAPI/ManutencaoFrotaAPI.csproj",
   "expectedPackageFiles": [
     "/Users/renatodacosta/.nuget/packages/epplus/9.0.0-preview/epplus.9.0.0-preview.nupkg.sha512",
     "/Users/renatodacosta/.nuget/packages/epplus.interfaces/9.0.0-preview/epplus.interfaces.9.0.0-preview.nupkg.sha512",
@@ -30,6 +30,7 @@
     "/Users/renatodacosta/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/10.0.12/microsoft.entityframeworkcore.sqlite.core.10.0.12.nupkg.sha512",
     "/Users/renatodacosta/.nuget/packages/microsoft.entityframeworkcore.tools/10.0.12/microsoft.entityframeworkcore.tools.10.0.12.nupkg.sha512",
     "/Users/renatodacosta/.nuget/packages/microsoft.extensions.apidescription.server/10.0.0/microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "/Users/renatodacosta/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "/Users/renatodacosta/.nuget/packages/microsoft.extensions.dependencymodel/10.0.12/microsoft.extensions.dependencymodel.10.0.12.nupkg.sha512",
     "/Users/renatodacosta/.nuget/packages/microsoft.identitymodel.abstractions/8.23.0/microsoft.identitymodel.abstractions.8.23.0.nupkg.sha512",
     "/Users/renatodacosta/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.23.0/microsoft.identitymodel.jsonwebtokens.8.23.0.nupkg.sha512",
