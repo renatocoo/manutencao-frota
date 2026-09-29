@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManutencaoFrotaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab2ffad8c2414bde83291d161cc520a07ff80cb4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd4831a827a7863165c8cb25e5dda7dcfb90547c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManutencaoFrotaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManutencaoFrotaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
