@@ -18,5 +18,5 @@ Este projeto é um sistema para gerenciamento de frotas de veículos, permitindo
 
 ### Pré-requisitos
 
-- .NET Core SDK 7.0
+- .NET Core SDK 10.0
 - SQL Server
